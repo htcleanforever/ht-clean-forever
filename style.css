@@ -273,7 +273,7 @@ font-weight:600;
 .menu-toggle{
 font-size:30px;
 cursor:pointer;
-display:none;
+display:block;
 }
 
 @media (max-width:768px){
