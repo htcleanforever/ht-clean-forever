@@ -1,243 +1,146 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HT - Clean Forever</title>
+<title>HT Clean Forever | You Call, We Haul</title>
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial, sans-serif;
-}
-
-body{
-background:#0b0b0b;
-color:white;
-line-height:1.6;
-}
-
-.hero{
-height:100vh;
-background:
-linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
-url('uhaul.png');
-background-size:cover;
-background-position:center;
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:20px;
-}
-
-.hero-content{
-max-width:900px;
-}
-
-.hero h1{
-font-size:4rem;
-color:#22c55e;
-margin-bottom:15px;
-}
-
-.hero h2{
-font-size:2rem;
-margin-bottom:20px;
-}
-
-.hero p{
-font-size:1.2rem;
-margin-bottom:30px;
-}
-
-.btn{
-display:inline-block;
-padding:15px 30px;
-background:#22c55e;
-color:black;
-text-decoration:none;
-font-weight:bold;
-border-radius:8px;
-}
-
-section{
-padding:80px 10%;
-}
-
-.section-title{
-text-align:center;
-font-size:2.5rem;
-color:#22c55e;
-margin-bottom:40px;
-}
-
-.services{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
-
-.card{
-background:#151515;
-padding:25px;
-border-radius:10px;
-}
-
-.gallery{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-gap:20px;
-}
-
-.gallery img{
-width:100%;
-border-radius:10px;
-}
-
-.review{
-background:#151515;
-padding:20px;
-margin-bottom:15px;
-border-left:4px solid #22c55e;
-}
-
-.contact{
-text-align:center;
-}
-
-.phone{
-font-size:2rem;
-color:#22c55e;
-margin:15px 0;
-}
-
-footer{
-background:black;
-padding:30px;
-text-align:center;
-}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<section class="hero">
+<nav class="navbar">
+    <div class="logo">HT CLEAN FOREVER</div>
+
+```
+<ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+```
+
+</nav>
+
+<header class="hero">
+
+```
+<div class="overlay"></div>
+
 <div class="hero-content">
+    <h1>YOU CALL, WE HAUL.</h1>
 
-<h1>YOU CALL, WE HAUL.</h1>
+    <p>
+        Professional Junk Removal, Property Cleanouts,
+        Trash Hauling, Furniture Removal, and Cleanup Services.
+    </p>
 
-<h2>HT - CLEAN FOREVER</h2>
+    <a href="tel:2065379839" class="btn">
+        CALL (206) 537-9839
+    </a>
+</div>
+```
 
-<p>
-Professional Junk Removal, Property Cleanouts, Trash Hauling,
-Furniture Removal, Yard Debris Removal, and Cleanup Services in Kent, WA.
-</p>
+</header>
 
-<a href="tel:2065379839" class="btn">
-CALL (206) 537-9839
-</a>
+<section id="services">
+
+```
+<h2>Our Services</h2>
+
+<div class="services-grid">
+
+    <div class="card">
+        <h3>Junk Removal</h3>
+        <p>Fast removal of unwanted junk and clutter.</p>
+    </div>
+
+    <div class="card">
+        <h3>Property Cleanouts</h3>
+        <p>Homes, rentals, garages and estate cleanouts.</p>
+    </div>
+
+    <div class="card">
+        <h3>Furniture Removal</h3>
+        <p>Couches, mattresses, appliances and more.</p>
+    </div>
+
+    <div class="card">
+        <h3>Yard Debris Removal</h3>
+        <p>Outdoor cleanup and debris hauling.</p>
+    </div>
 
 </div>
-</section>
-
-<section>
-
-<h2 class="section-title">Our Services</h2>
-
-<div class="services">
-
-<div class="card">
-<h3>Junk Removal</h3>
-<p>Fast and reliable junk hauling.</p>
-</div>
-
-<div class="card">
-<h3>Property Cleanouts</h3>
-<p>Homes, rentals, garages and estates.</p>
-</div>
-
-<div class="card">
-<h3>Furniture Removal</h3>
-<p>Furniture, appliances and bulky items.</p>
-</div>
-
-<div class="card">
-<h3>Yard Debris Removal</h3>
-<p>Outdoor cleanup and debris hauling.</p>
-</div>
-
-<div class="card">
-<h3>Move-Out Cleanup</h3>
-<p>Leave properties clean and ready.</p>
-</div>
-
-<div class="card">
-<h3>Commercial Cleanup</h3>
-<p>Construction debris and business cleanup.</p>
-</div>
-
-</div>
+```
 
 </section>
 
-<section>
+<section id="gallery">
 
-<h2 class="section-title">Before & After Results</h2>
+```
+<h2>Real Results</h2>
 
-<div class="gallery">
+<div class="gallery-grid">
 
-<img src="1.png">
-<img src="2.png">
-<img src="3.png">
-<img src="4.png">
-<img src="5.png">
-<img src="6.png">
+    <img src="1.png">
+    <img src="2.png">
+    <img src="3.png">
+    <img src="4.png">
+    <img src="5.png">
+    <img src="6.png">
 
 </div>
+```
 
 </section>
 
-<section>
+<section id="reviews">
 
-<h2 class="section-title">Customer Reviews</h2>
+```
+<h2>Customer Reviews</h2>
 
 <div class="review">
-★★★★★ Fast, professional, and affordable. Everything was hauled away quickly.
+    ★★★★★ Fast, professional and affordable.
 </div>
 
 <div class="review">
-★★★★★ Great communication and excellent cleanup service.
+    ★★★★★ Great communication and reliable service.
 </div>
 
 <div class="review">
-★★★★★ Reliable team and fair pricing. Highly recommended.
+    ★★★★★ Property looked amazing after cleanup.
 </div>
+```
 
 </section>
 
-<section class="contact">
+<section id="contact">
 
-<h2 class="section-title">Contact Us</h2>
+```
+<h2>Contact Us</h2>
 
-<div class="phone">(206) 537-9839</div>
+<p class="phone">(206) 537-9839</p>
 
 <p>htcleanforever@gmail.com</p>
 
 <p>
-Hours:<br>
-7:00 AM – 2:00 PM<br>
-4:00 PM – 6:00 PM
+    7:00 AM - 2:00 PM<br>
+    4:00 PM - 6:00 PM
 </p>
+
+<a class="btn"
+href="https://www.yelp.com/biz/ht-clean-forever-kent?osq=ht+clean+forever&override_cta=Get+pricing+%26+availability"
+target="_blank">
+Yelp Reviews
+</a>
+```
 
 </section>
 
-<footer>
-<h3>HT - Clean Forever</h3>
-<p>You Call, We Haul.</p>
-</footer>
+<script src="script.js"></script>
 
 </body>
 </html>
