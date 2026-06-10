@@ -10,55 +10,57 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial,sans-serif;
-scroll-behavior:smooth;
+font-family:Arial, sans-serif;
 }
 
 body{
-background:#111;
+background:#0b0b0b;
 color:white;
+line-height:1.6;
 }
 
-header{
+.hero{
 height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+url('uhaul.png');
+background-size:cover;
+background-position:center;
 display:flex;
-flex-direction:column;
 justify-content:center;
 align-items:center;
 text-align:center;
 padding:20px;
-background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
 }
 
-h1{
+.hero-content{
+max-width:900px;
+}
+
+.hero h1{
 font-size:4rem;
-color:#34d399;
+color:#22c55e;
+margin-bottom:15px;
+}
+
+.hero h2{
+font-size:2rem;
 margin-bottom:20px;
-animation:fadeIn 1.5s ease;
 }
 
-p{
-line-height:1.6;
-}
-
-.hero-text{
-max-width:800px;
+.hero p{
 font-size:1.2rem;
 margin-bottom:30px;
 }
 
 .btn{
-background:#34d399;
-color:black;
+display:inline-block;
 padding:15px 30px;
+background:#22c55e;
+color:black;
 text-decoration:none;
-border-radius:8px;
 font-weight:bold;
-transition:.3s;
-}
-
-.btn:hover{
-transform:scale(1.1);
+border-radius:8px;
 }
 
 section{
@@ -66,34 +68,40 @@ padding:80px 10%;
 }
 
 .section-title{
-font-size:2.5rem;
-color:#34d399;
-margin-bottom:30px;
 text-align:center;
+font-size:2.5rem;
+color:#22c55e;
+margin-bottom:40px;
 }
 
-.cards{
+.services{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:20px;
 }
 
 .card{
-background:#1c1c1c;
+background:#151515;
 padding:25px;
-border-radius:12px;
-transition:.3s;
+border-radius:10px;
 }
 
-.card:hover{
-transform:translateY(-10px);
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
 }
 
 .review{
-background:#1c1c1c;
+background:#151515;
 padding:20px;
-margin:15px 0;
-border-left:5px solid #34d399;
+margin-bottom:15px;
+border-left:4px solid #22c55e;
 }
 
 .contact{
@@ -102,115 +110,133 @@ text-align:center;
 
 .phone{
 font-size:2rem;
-color:#34d399;
-margin:20px 0;
+color:#22c55e;
+margin:15px 0;
 }
 
 footer{
-text-align:center;
+background:black;
 padding:30px;
-background:#000;
-}
-
-@keyframes fadeIn{
-from{
-opacity:0;
-transform:translateY(30px);
-}
-to{
-opacity:1;
-transform:translateY(0);
-}
+text-align:center;
 }
 </style>
 </head>
 
 <body>
 
-<header>
-<h1>HT - Clean Forever</h1>
+<section class="hero">
+<div class="hero-content">
 
-<p class="hero-text">
-Professional junk removal, hauling, cleanup, and property cleanout services in Kent, WA. We help homeowners, businesses, landlords, and property managers remove unwanted junk, furniture, debris, trash, and clutter quickly and affordably.
+<h1>YOU CALL, WE HAUL.</h1>
+
+<h2>HT - CLEAN FOREVER</h2>
+
+<p>
+Professional Junk Removal, Property Cleanouts, Trash Hauling,
+Furniture Removal, Yard Debris Removal, and Cleanup Services in Kent, WA.
 </p>
 
-<a href="#contact" class="btn">Get Free Estimate</a>
-</header>
+<a href="tel:2065379839" class="btn">
+CALL (206) 537-9839
+</a>
+
+</div>
+</section>
 
 <section>
+
 <h2 class="section-title">Our Services</h2>
 
-<div class="cards">
+<div class="services">
 
 <div class="card">
 <h3>Junk Removal</h3>
-<p>Fast removal of unwanted junk and clutter.</p>
-</div>
-
-<div class="card">
-<h3>Furniture Removal</h3>
-<p>We haul away couches, mattresses, tables, and more.</p>
+<p>Fast and reliable junk hauling.</p>
 </div>
 
 <div class="card">
 <h3>Property Cleanouts</h3>
-<p>Complete cleanouts for homes, rentals, and estates.</p>
+<p>Homes, rentals, garages and estates.</p>
+</div>
+
+<div class="card">
+<h3>Furniture Removal</h3>
+<p>Furniture, appliances and bulky items.</p>
 </div>
 
 <div class="card">
 <h3>Yard Debris Removal</h3>
-<p>Branches, yard waste, and outdoor cleanup services.</p>
+<p>Outdoor cleanup and debris hauling.</p>
 </div>
 
 <div class="card">
 <h3>Move-Out Cleanup</h3>
-<p>Leave your property clean and ready for the next occupant.</p>
+<p>Leave properties clean and ready.</p>
 </div>
 
 <div class="card">
 <h3>Commercial Cleanup</h3>
-<p>Reliable cleanup services for businesses and job sites.</p>
+<p>Construction debris and business cleanup.</p>
 </div>
 
 </div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Before & After Results</h2>
+
+<div class="gallery">
+
+<img src="1.png">
+<img src="2.png">
+<img src="3.png">
+<img src="4.png">
+<img src="5.png">
+<img src="6.png">
+
+</div>
+
 </section>
 
 <section>
+
 <h2 class="section-title">Customer Reviews</h2>
 
 <div class="review">
-★★★★★ Excellent service. They cleaned out our garage quickly and professionally.
+★★★★★ Fast, professional, and affordable. Everything was hauled away quickly.
 </div>
 
 <div class="review">
-★★★★★ Fair pricing and very reliable. Highly recommended.
+★★★★★ Great communication and excellent cleanup service.
 </div>
 
 <div class="review">
-★★★★★ Fast response and great communication throughout the job.
+★★★★★ Reliable team and fair pricing. Highly recommended.
 </div>
 
 </section>
 
-<section id="contact" class="contact">
+<section class="contact">
+
 <h2 class="section-title">Contact Us</h2>
 
 <div class="phone">(206) 537-9839</div>
 
+<p>htcleanforever@gmail.com</p>
+
 <p>
 Hours:<br>
-7:00 AM - 2:00 PM<br>
-4:00 PM - 6:00 PM
+7:00 AM – 2:00 PM<br>
+4:00 PM – 6:00 PM
 </p>
-
-<br><br>
-
-<a href="tel:2065379839" class="btn">Call Now</a>
 
 </section>
 
 <footer>
-© 2025 HT - Clean Forever | Kent, WA
+<h3>HT - Clean Forever</h3>
+<p>You Call, We Haul.</p>
 </footer>
 
 </body>
