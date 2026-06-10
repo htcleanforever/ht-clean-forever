@@ -215,3 +215,43 @@ max-height:90%;
 border-radius:15px;
 box-shadow:0 0 40px rgba(0,0,0,.8);
 }
+footer{
+background:#050505;
+padding:60px 10%;
+text-align:center;
+border-top:1px solid rgba(255,255,255,.08);
+}
+
+footer h3{
+color:#22c55e;
+font-size:2rem;
+margin-bottom:10px;
+}
+
+.footer-tagline{
+font-weight:600;
+margin-bottom:20px;
+}
+
+.footer-links{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.footer-links a{
+color:white;
+text-decoration:none;
+font-weight:600;
+transition:.3s;
+}
+
+.footer-links a:hover{
+color:#22c55e;
+}
+
+.copyright{
+opacity:.7;
+font-size:.9rem;
+}
