@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HT - Clean Forever</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#111;
+color:white;
+}
+
+header{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
+}
+
+h1{
+font-size:4rem;
+color:#34d399;
+margin-bottom:20px;
+animation:fadeIn 1.5s ease;
+}
+
+p{
+line-height:1.6;
+}
+
+.hero-text{
+max-width:800px;
+font-size:1.2rem;
+margin-bottom:30px;
+}
+
+.btn{
+background:#34d399;
+color:black;
+padding:15px 30px;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.1);
+}
+
+section{
+padding:80px 10%;
+}
+
+.section-title{
+font-size:2.5rem;
+color:#34d399;
+margin-bottom:30px;
+text-align:center;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1c1c1c;
+padding:25px;
+border-radius:12px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.review{
+background:#1c1c1c;
+padding:20px;
+margin:15px 0;
+border-left:5px solid #34d399;
+}
+
+.contact{
+text-align:center;
+}
+
+.phone{
+font-size:2rem;
+color:#34d399;
+margin:20px 0;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#000;
+}
+
+@keyframes fadeIn{
+from{
+opacity:0;
+transform:translateY(30px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>HT - Clean Forever</h1>
+
+<p class="hero-text">
+Professional junk removal, hauling, cleanup, and property cleanout services in Kent, WA. We help homeowners, businesses, landlords, and property managers remove unwanted junk, furniture, debris, trash, and clutter quickly and affordably.
+</p>
+
+<a href="#contact" class="btn">Get Free Estimate</a>
+</header>
+
+<section>
+<h2 class="section-title">Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Junk Removal</h3>
+<p>Fast removal of unwanted junk and clutter.</p>
+</div>
+
+<div class="card">
+<h3>Furniture Removal</h3>
+<p>We haul away couches, mattresses, tables, and more.</p>
+</div>
+
+<div class="card">
+<h3>Property Cleanouts</h3>
+<p>Complete cleanouts for homes, rentals, and estates.</p>
+</div>
+
+<div class="card">
+<h3>Yard Debris Removal</h3>
+<p>Branches, yard waste, and outdoor cleanup services.</p>
+</div>
+
+<div class="card">
+<h3>Move-Out Cleanup</h3>
+<p>Leave your property clean and ready for the next occupant.</p>
+</div>
+
+<div class="card">
+<h3>Commercial Cleanup</h3>
+<p>Reliable cleanup services for businesses and job sites.</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Customer Reviews</h2>
+
+<div class="review">
+★★★★★ Excellent service. They cleaned out our garage quickly and professionally.
+</div>
+
+<div class="review">
+★★★★★ Fair pricing and very reliable. Highly recommended.
+</div>
+
+<div class="review">
+★★★★★ Fast response and great communication throughout the job.
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+<h2 class="section-title">Contact Us</h2>
+
+<div class="phone">(206) 537-9839</div>
+
+<p>
+Hours:<br>
+7:00 AM - 2:00 PM<br>
+4:00 PM - 6:00 PM
+</p>
+
+<br><br>
+
+<a href="tel:2065379839" class="btn">Call Now</a>
+
+</section>
+
+<footer>
+© 2025 HT - Clean Forever | Kent, WA
+</footer>
+
+</body>
+</html>
