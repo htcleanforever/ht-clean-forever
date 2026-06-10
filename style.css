@@ -255,3 +255,18 @@ color:#22c55e;
 opacity:.7;
 font-size:.9rem;
 }
+.hero-badges{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:12px;
+margin-top:20px;
+}
+
+.hero-badges span{
+background:rgba(34,197,94,.15);
+border:1px solid rgba(34,197,94,.35);
+padding:10px 16px;
+border-radius:999px;
+font-weight:600;
+}
