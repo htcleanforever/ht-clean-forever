@@ -270,3 +270,20 @@ padding:10px 16px;
 border-radius:999px;
 font-weight:600;
 }
+.menu-toggle{
+font-size:30px;
+cursor:pointer;
+display:none;
+}
+
+@media (max-width:768px){
+
+.menu-toggle{
+display:block;
+}
+
+.nav-links{
+display:none;
+}
+
+}
