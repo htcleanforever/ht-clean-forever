@@ -84,7 +84,7 @@ animation:heroSlide 1.2s ease-out;
 
 .hero p{
 font-size:1.2rem;
-margin-top:5px;
+margin-top:15px;
 margin-bottom:30px;
 text-shadow:0 0 10px rgba(255,255,255,.7);
 }
