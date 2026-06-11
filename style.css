@@ -290,4 +290,16 @@ display:block;
 display:none;
 }
 
+.nav-links.active{
+display:flex;
+flex-direction:column;
+position:absolute;
+top:60px;
+left:10px;
+background:white;
+padding:15px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+
 }
