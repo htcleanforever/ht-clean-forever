@@ -262,6 +262,7 @@ flex-wrap:wrap;
 justify-content:center;
 gap:12px;
 margin-top:5px;
+animation:heroSlide 1.6s ease-out;
 }
 
 .hero-badges span{
