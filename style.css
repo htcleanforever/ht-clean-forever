@@ -79,6 +79,7 @@ font-weight:800;
 color:#22c55e;
 margin-bottom:20px;
 text-shadow:0 0 25px rgba(34,197,94,.5);
+animation:heroSlide 1.2s ease-out;
 }
 
 .hero p{
@@ -326,4 +327,14 @@ transition:all .8s ease;
 .fade-in.show{
 opacity:1;
 transform:translateY(0);
+}
+@keyframes heroSlide{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
 }
