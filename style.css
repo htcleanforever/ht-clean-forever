@@ -339,3 +339,12 @@ opacity:1;
 transform:translateY(0);
 }
 }
+.book-btn{
+background:white;
+color:black;
+margin-top:15px;
+}
+
+.book-btn:hover{
+transform:translateY(-4px);
+}
