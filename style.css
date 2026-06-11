@@ -274,7 +274,9 @@ font-weight:600;
 font-size:30px;
 cursor:pointer;
 display:block;
-margin-left:auto;
+position:absolute;
+left:20px;
+top:20px;
 }
 
 @media (max-width:768px){
