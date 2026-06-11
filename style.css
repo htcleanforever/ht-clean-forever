@@ -325,6 +325,9 @@ font-size:18px;
 text-decoration:none;
 }
 
+.hero h1{
+font-size:3rem;
+}
 
 }
 .fade-in{
@@ -363,3 +366,4 @@ transition:all .3s ease;
 .card:hover{
 transform:translateY(-10px) scale(1.03);
 }
+
