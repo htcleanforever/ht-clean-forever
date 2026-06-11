@@ -33,9 +33,17 @@ border-bottom:1px solid rgba(255,255,255,.1);
 }
 
 .logo{
-font-size:1.4rem;
+font-size:1.6rem;
 font-weight:800;
 color:#22c55e;
+letter-spacing:2px;
+text-shadow:0 0 12px rgba(34,197,94,.5);
+transition:.3s;
+}
+.logo:hover{
+text-shadow:
+0 0 12px rgba(34,197,94,.6),
+0 0 24px rgba(34,197,94,.4);
 }
 
 .nav-links{
