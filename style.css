@@ -289,8 +289,7 @@ display:block;
 }
 
 .nav-links{
-display:flex;
-flex-direction:column;
+display:none;
 }
 
 .nav-links.active{
