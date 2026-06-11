@@ -281,7 +281,9 @@ top:10px;
 }
 
 @media (max-width:768px){
-
+.navbar{
+padding:10px 8%;
+}
 .menu-toggle{
 display:block;
 }
@@ -309,4 +311,7 @@ z-index:1000;
 color:black;
 font-size:18px;
 text-decoration:none;
+}
+
+
 }
