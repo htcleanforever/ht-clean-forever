@@ -284,6 +284,9 @@ top:10px;
 .navbar{
 padding:10px 8%;
 }
+  .logo{
+margin-left:40px;
+}
 .menu-toggle{
 display:block;
 }
