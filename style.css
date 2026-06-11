@@ -133,8 +133,9 @@ transition:.3s;
 }
 
 .card:hover{
-transform:translateY(-10px);
+transform:translateY(-10px) scale(1.02);
 border-color:#22c55e;
+box-shadow:0 0 25px rgba(34,197,94,.25);
 }
 
 .gallery-grid{
