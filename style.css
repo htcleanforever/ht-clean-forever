@@ -348,3 +348,10 @@ margin-top:15px;
 .book-btn:hover{
 transform:translateY(-4px);
 }
+.card{
+transition:all .3s ease;
+}
+
+.card:hover{
+transform:translateY(-10px) scale(1.03);
+}
