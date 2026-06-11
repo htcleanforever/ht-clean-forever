@@ -51,7 +51,9 @@ font-weight:600;
 transition:.3s;
 }
 
-.nav-links a:hover
+.nav-links a:hover{
+color:#22c55e;
+}
 
 .hero{
 height:100vh;
