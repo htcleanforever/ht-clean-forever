@@ -417,3 +417,8 @@ transform:translateY(-10px) scale(1.03);
     display: flex;
     align-items: center;
 }
+@media (max-width: 768px) {
+    .hero {
+        padding-top: 180px;
+    }
+}
