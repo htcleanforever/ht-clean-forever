@@ -406,3 +406,14 @@ transform:translateY(-10px) scale(1.03);
         transform: translateY(0px);
     }
 }
+.nav-truck {
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
