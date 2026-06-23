@@ -387,3 +387,22 @@ transition:all .3s ease;
 transform:translateY(-10px) scale(1.03);
 }
 
+.hero-truck {
+    width: 320px;
+    max-width: 90%;
+    display: block;
+    margin: 30px auto;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
