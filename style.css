@@ -432,3 +432,17 @@ transform:translateY(-10px) scale(1.03);
     }
 }
   
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px 5%;
+    }
+
+    .logo {
+        font-size: 1rem;
+    }
+
+    .nav-truck {
+        width: 35px;
+        margin-right: 5px;
+    }
+}
